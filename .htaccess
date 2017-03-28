@@ -1,0 +1,8 @@
+DirectoryIndex home.php
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)/?$ $1.php [NC]
+
+RewriteRule ^([^./]+)/?$ profile.php?id=$1 [L,QSA]

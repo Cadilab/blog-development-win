@@ -1,0 +1,47 @@
+body 
+{
+    background: #fff;
+    color: #14171a;
+    font-size: 14px;
+    line-height: 18px;
+    overflow-y: scroll;
+}
+
+.circle 
+{
+    line-height: 0; 
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+    transition: linear 0.25s;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.circle:hover 
+{
+    transition: ease-out 0.2s;
+    border: 2px solid rgb(122, 28, 169);
+    -webkit-transition: ease-out 0.2s;
+}
+
+a.circle 
+{
+    color: transparent;
+} 
+
+.home-header
+{
+    height: 300px;
+    width: 100%;
+    background: transparent url(//hca.twimg.com/assets/home-header-4843501dd9a08d734b818ece67bc72b8226abd1cadc923aec6b78dbd22b71d76.jpg) no-repeat top left;
+    background-size: cover;
+    text-align: center;
+}
+
+#frmCheckUsername {border-top:#fff 2px solid;background:#fff;padding:10px;}
+.demoInputBox{padding:7px; border:#ccc 1px solid; border-radius:4px;}
+.status-available{color:#2FC332;}
+.status-not-available{color:#D60202;}
